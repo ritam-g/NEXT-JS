@@ -1,14 +1,13 @@
 import React from 'react'
 
-const Page = async (param) => {
-    console.log(param)
-
-    return (
-        <div>
-            this is dynamic id page
-            
-        </div>
-    )
+const page = async({params}) => {
+   const data=await params
+   console.log(data)
+  return (
+    <div>
+      <h1> this is homes page  {data.id}</h1>
+    </div>
+  )
 }
 
-export default Page
+export default page

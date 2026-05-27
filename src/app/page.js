@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <h1> thi sis from nextjs</h1>
+      <h1> hello i am from page.js</h1>
     </div>
   )
 }
